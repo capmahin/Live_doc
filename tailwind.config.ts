@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-const { fontFamily } = require("tailwindcss/defaultTheme");
+import { fontFamily } from "tailwindcss/defaultTheme";
 
 const config = {
   darkMode: ["class"],
@@ -63,6 +63,7 @@ const config = {
       }
     }
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
   plugins: [require("tailwindcss-animate")]
 } satisfies Config;
 
