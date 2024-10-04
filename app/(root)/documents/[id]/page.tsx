@@ -5,7 +5,7 @@ const Document = () => {
   return (
     <div>
       <Header>
-        <p className="text-white">Test</p>
+        <div className="flex w-fit items-center justify-center gap-2"></div>
       </Header>
       <Editor />
     </div>
