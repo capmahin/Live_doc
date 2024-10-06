@@ -1,6 +1,6 @@
 import { SignUp } from "@clerk/nextjs";
 
-const page = () => {
+const SignUpPage = () => {
   return (
     <main className="auth-page">
       <SignUp />
@@ -8,4 +8,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default SignUpPage;
